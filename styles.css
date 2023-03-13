@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .more {
+    display: none;
+  }
+  
+  .hover:hover {
+    color: rgb(207, 206, 202);
+    transition: 0.3s;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .tz-gallery img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .vertical {
+      max-height: 700px;
+    }
+  }
+
+  body {
+    font: normal 16px sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+
+/* Styles for the gallery */
+
+.tz-gallery {
+    padding: 40px;
+}
+
+
+.thumbnail {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: black;
+}
+
+.tz-gallery img {
+    border-radius: 2px;
+    max-height: 550px;
+    max-width: 90%;
+    background-color: black;
+    overflow: hidden;
+}
